@@ -16,3 +16,9 @@ unset  HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
 ```
 - github push时的用户名密码问题
 解决方法：密码使用token
+
+- 问题2：git config使用问题
+```
+git config --local user.email kindlytree@163.com
+git config --local user.name kindlytree
+```
